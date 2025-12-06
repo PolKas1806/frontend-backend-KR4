@@ -1,4 +1,3 @@
-// src/App.js — ФИНАЛЬНАЯ ВЕРСИЯ (всё работает идеально + тёмная тема 100%)
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -29,12 +28,12 @@ function App() {
       createTheme({
         palette: {
           mode: darkMode ? 'dark' : 'light',
-          primary: { main: '#3498db' },
-          secondary: { main: '#27ae60' },
-          error: { main: '#e74c3c' },
+          primary: { main: '#eb8220ff' },
+          secondary: { main: '#00c753ff' },
+          error: { main: '#d4321fff' },
           background: {
             default: darkMode ? '#0a0e17' : '#f5f7fa',
-            paper: darkMode ? '#1a2332' : '#ffffffff',
+            paper: darkMode ? '#2a2b2eff' : '#ffffffff',
           },
         },
         typography: {
@@ -49,10 +48,10 @@ function App() {
                   ? '0 8px 32px rgba(0, 0, 0, 0.5)' 
                   : '0 4px 20px rgba(0, 0, 0, 0.1)',
                 background: darkMode 
-                  ? 'rgba(255, 255, 255, 0.08)' 
+                  ? 'rgba(255, 245, 245, 0.08)' 
                   : '#ffffff',
                 backdropFilter: 'blur(12px)',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
+                border: '1px solid rgba(52, 135, 219, 0.1)',
                 transition: 'all 0.4s ease',
               },
             },

@@ -2,7 +2,7 @@
 
 .App {
   min-height: 100vh;
-  background: #000000;
+  background: #5a1b1b;
   padding: 20px 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -12,7 +12,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

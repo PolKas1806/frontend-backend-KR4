@@ -34,7 +34,7 @@ function App() {
           error: { main: '#e74c3c' },
           background: {
             default: darkMode ? '#0a0e17' : '#f5f7fa',
-            paper: darkMode ? '#1a2332' : '#ffffff',
+            paper: darkMode ? '#1a2332' : '#ffffffff',
           },
         },
         typography: {

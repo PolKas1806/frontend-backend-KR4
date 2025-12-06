@@ -2,7 +2,7 @@
 
 .App {
   min-height: 100vh;
-  background: #f5f7fa;
+  background: #000000;
   padding: 20px 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -139,7 +139,7 @@
 }
 
 .status-buttons button.active {
-  background: #2980b9;
+  background: #06273c;
   color: white;
   border-color: #2980b9;
 }
